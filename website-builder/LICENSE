@@ -1,0 +1,9 @@
+
+### 7. **Opublikowanie i udostępnienie projektu**
+
+1. W terminalu przejdź do katalogu projektu.
+2. Dodaj wszystkie zmiany do repozytorium:
+   ```sh
+   git add .
+   git commit -m "Initial commit"
+   git push origin main
