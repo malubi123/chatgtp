@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@3.0.1/dist/model-viewer.min.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Website Builder</h1>
+    </header>
+    <main>
+        <div id="editor">
+            <textarea id="editor-text" placeholder="Add text here..."></textarea>
+            <input type="file" id="upload-image" accept="image/*">
+            <input type="text" id="link-url" placeholder="Add URL for link">
+            <button id="add-link">Add Link</button>
+            <button id="add-iframe">Add iFrame</button>
+            <button id="add-3d-model">Add 3D Model</button>
+            <button id="add-form">Add Form</button>
+        </div>
+        <div id="preview">
+            <h2>Preview</h2>
+            <div id="preview-content"></div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
